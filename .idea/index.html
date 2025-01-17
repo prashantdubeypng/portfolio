@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>HOME</title>
     <link rel="stylesheet" href="indexcss.css">
+
 </head>
 <body>
 <div class="navigation" , id="navigation">
@@ -22,16 +23,16 @@
     </div>
 
     <div class="profiletext">
-        <a href="#">
+        <a href="https://github.com/prashantdubeypng" target="_blank">
             <img src="#" alt="github">
         </a>
-        <a href="#">
+        <a href="www.linkedin.com/in/prashant-dubey-5a11aa287" target="_blank">
             <img src="#" alt="linkedin">
         </a>
-        <a href="#">
+        <a href="https://leetcode.com/u/prashantdubeyPD" target="_blank">
             <img src="#" alt="Leetcode">
         </a>
-        <a href="#">
+        <a href="#contact1">
             <img src="#" alt="contact me">
         </a>
     </div>
@@ -62,14 +63,58 @@
     <div class="quote">
         <blockquote>"The best way to predict the future is to create it." – Peter Drucker</blockquote>
     </div>
-    <div class="connect">
+    <div class="connect" id="connect">
         <h2>Let's Connect!</h2>
         <p>If you’re looking for a passionate developer or want to collaborate on exciting projects, feel free to reach out!</p>
-        <a href="#" class="cta-button">Contact Me</a>
+        <a href="#contact-form1" class="cta-button">Contact Me</a>
+    </div>
+    <br>
+    <br>
+    <div class="contact-section" id="contact1">
+        <h4>GET IN TOUCH</h4>
+        <h2>Contact Me</h2>
+
+        <div class="contact-detail">
+            <!-- Email Link -->
+            <a href="mailto:prashantdubey@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+                prashantdubey@gmail.com
+            </a>
+
+            <!-- Phone Link -->
+            <a href="tel:6206826132" aria-label="Phone">
+                <i class="fas fa-phone"></i>
+                +91 6206826132
+            </a>
+
+            <!-- Location -->
+            <div class="location">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    My Address:PEER NAGAR,GHAZIPUR,233001,INDIA
+                </p>
+
+            </div>
+        </div>
+
+        <div class="contact-form" id="contact-form1">
+            <form action="https://formsubmit.co/prashant2107pd@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="url" name="website" placeholder="Your Website url/github/linkedin" required>
+                <input type="submit" value="Send">
+            </form>
+        </div>
     </div>
 
-</div>
+    <!-- Include Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </div>
 
+</div>
+<script src="index.js"></script>
 </body>
 </html>
