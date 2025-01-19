@@ -15,7 +15,7 @@ body{
     background: #5f788d;
     display: flex;
     justify-content:center;
-    padding: 10px 0;
+    padding: 3px 0;
     z-index: 100;
 }
 .navigation-button{
@@ -56,7 +56,7 @@ body{
     text-align: center;
 }
 .profiletext{
-    width: 100px;
+    width: 300px;
     padding: 20px;
 }
 .progressbar{
@@ -227,6 +227,142 @@ progress::-webkit-progress-value {
     .contact-detail {
         flex-direction: column;
         align-items: flex-start;
+    }
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.skills {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Technical Skills Section */
+.Technical_skills {
+    margin-bottom: 30px;
+}
+
+.Technical_skills span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+progress[value] {
+    appearance: none;
+}
+
+progress[value="90"] {
+    background-color: #4caf50; /* Green */
+}
+
+progress[value="60"] {
+    background-color: #ffa500; /* Orange */
+}
+
+progress[value="35"] {
+    background-color: #f44336; /* Red */
+}
+
+progress[value="45"] {
+    background-color: #ffeb3b; /* Yellow */
+}
+
+progress[value="85"] {
+    background-color: #2196f3; /* Blue */
+}
+
+progress[value="70"] {
+    background-color: #8bc34a; /* Light Green */
+}
+
+/* Soft Skills Section */
+.softskills {
+    margin-bottom: 30px;
+}
+
+#skill_list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+#skill_list li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#skill_list li:hover {
+    background-color: #b3e5fc;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .skills {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .Technical_skills span, #skill_list li {
+        font-size: 16px;
+    }
+
+    progress {
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .Technical_skills span, #skill_list li {
+        font-size: 14px;
+    }
+
+    progress {
+        height: 10px;
     }
 }
 
