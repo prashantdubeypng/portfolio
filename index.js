@@ -12,5 +12,8 @@ document.getElementById('SKILLS').addEventListener("click", function () {
 document.getElementById("about").addEventListener("click", function () {
     document.getElementById("about22").scrollIntoView({ behavior: "smooth" });
 })
+document.getElementById('Project').addEventListener("click", function () {
+    document.getElementById("projects65").scrollIntoView({behavior: "smooth"});
+})
 
 
