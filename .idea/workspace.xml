@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bd96d88-6c61-4a82-bcf5-995ab3df3874" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/.idea/download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,7 +98,17 @@
       <workItem from="1737537440872" duration="573000" />
       <workItem from="1737540689251" duration="261000" />
       <workItem from="1737566037267" duration="23000" />
-      <workItem from="1737641480725" duration="2925000" />
+      <workItem from="1737641480725" duration="4694000" />
+      <workItem from="1737786511053" duration="1256000" />
+      <workItem from="1737809315438" duration="711000" />
+      <workItem from="1738059879522" duration="188000" />
+      <workItem from="1738090501029" duration="28000" />
+      <workItem from="1738123084775" duration="125000" />
+      <workItem from="1738475815517" duration="377000" />
+      <workItem from="1738476481800" duration="13000" />
+      <workItem from="1738476794467" duration="608000" />
+      <workItem from="1738477900757" duration="1444000" />
+      <workItem from="1738494047037" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <option name="closed" value="true" />
